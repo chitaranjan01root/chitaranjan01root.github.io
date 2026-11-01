@@ -3,26 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hazari 1000 Scoreboard - Official Support & Privacy Policy</title>
+    <title>Privacy Policy - Hazari </title>
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #222; background: #f9fbf9; }
-        h1, h2 { color: #0f3d2e; }
-        .card { background: white; padding: 24px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); margin-bottom: 24px; }
-        a { color: #1a73e8; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 24px;
+            background-color: #f8fafc;
+        }
+        .container {
+            background: #ffffff;
+            padding: 36px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+        }
+        h1 { color: #1e293b; border-bottom: 2px solid #e2e8f0; padding-bottom: 12px; }
+        h2 { color: #0f172a; margin-top: 28px; }
+        p, li { color: #475569; }
+        ul { padding-left: 20px; }
+        .highlight { background: #e0f2fe; padding: 12px 16px; border-left: 4px solid #0284c7; border-radius: 4px; margin: 16px 0; }
+        .footer { margin-top: 40px; font-size: 0.9em; color: #94a3b8; text-align: center; }
     </style>
 </head>
 <body>
-    <div class="card">
-        <h1>Hazari 1000 Scoreboard</h1>
-        <p>The companion card scoreboard app for Hazari 1000 players. Keep score easily, hear voice announcements, and view match statistics.</p>
-    </div>
+<div class="container">
+    <h1>Privacy Policy</h1>
+    <p><strong>Last Updated:</strong> November 1, 2026</p>
+    <p>This Privacy Policy applies to the <strong>Hazari & Callbreak</strong> mobile application (Package Name: <code>com.havis.hazari</code>), operated by <strong>Havis</strong> ("we", "us", or "our").</p>
 
-    <div class="card" id="privacy">
-        <h2>Privacy Policy</h2>
-        <p>Last updated: September 2026</p>
-        <p>Hazari 1000 Scoreboard does not collect, store, or sell any personal data. All match history and player names are saved locally on your device.</p>
-        <h3>Third-Party Services & Ads</h3>
-        <p>The app uses Google AdMob to display advertisements. AdMob may collect and use device identifiers (such as Google Advertising ID) and non-personal diagnostic data to serve relevant ads according to Google's Privacy Policy at <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a>.</p>
+    <h2>1. Information We Collect</h2>
+    <ul>
+        <li><strong>Account Information:</strong> If you choose to sign in using Google Sign-In, we collect your public display name, email address, and avatar reference via Firebase Authentication to create and synchronize your player profile across devices.</li>
+        <li><strong>Game Statistics:</strong> Match scores, win rates, leaderboard rankings, and in-game achievements are stored in Cloud Firestore to enable global and national leaderboards.</li>
+        <li><strong>Device Identifiers & Advertising Data:</strong> We use Google AdMob, which may collect anonymous device identifiers, advertising IDs, and app interaction data to serve personalized or non-personalized advertisements.</li>
+    </ul>
+
+    <h2>2. Device Permissions Used</h2>
+    <div class="highlight">
+        <strong>Camera Permission (android.permission.CAMERA):</strong><br>
+        The camera is used <em>strictly on-device</em> to scan Table QR Codes for peer-to-peer Hotspot multiplayer lobbies. 
+        <strong>We do NOT record, capture, store, or transmit any photos, videos, or camera data to any external server.</strong>
     </div>
+    <ul>
+        <li><strong>Nearby Devices / Local WiFi:</strong> Used solely to discover and connect players on the same local network/hotspot for offline multiplayer games. No location tracking is performed.</li>
+    </ul>
+
+    <h2>3. Third-Party Services</h2>
+    <p>Our application integrates trusted third-party services that have their own privacy policies:</p>
+    <ul>
+        <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Play Services & Google Sign-In</a></li>
+        <li><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Google Firebase (Auth & Firestore)</a></li>
+        <li><a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">Google AdMob</a></li>
+    </ul>
+
+    <h2>4. Data Security</h2>
+    <p>All network communications (leaderboards, authentication, ads) are transmitted securely using encrypted TLS/HTTPS connections. Sensitive preferences and tokens are excluded from unencrypted device backups.</p>
+
+    <h2>5. Data Deletion & User Rights</h2>
+    <p>You can sign out of your account at any time within the Profile settings. If you wish to delete your synced leaderboard records or user data, you can request full account deletion by contacting us at the email below.</p>
+
+    <h2>6. Children’s Privacy</h2>
+    <p>Our game does not knowingly collect personally identifiable information from children under the age of 13. If you believe your child has provided us with personal information, please contact us for immediate removal.</p>
+
+    <h2>7. Contact Us</h2>
+    <p>If you have any questions, feedback, or data requests regarding this Privacy Policy, please contact us at:</p>
+    <p><strong>Email:</strong> <a href="mailto:your-support-email@gmail.com">your-support-email@gmail.com</a></p>
+
+    <div class="footer">
+        &copy; 2026 Havis. All rights reserved.
+    </div>
+</div>
 </body>
 </html>
